@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/health_check")
+@app.route("/health_check_sample")
 def health_check():
     return "ok"
 
